@@ -1,0 +1,27 @@
+{
+  "name": "system0",
+  "version": "0.0.0",
+  "description": "System0: Node.js Web Development Platform",
+  "keywords": [
+    "system0",
+    "development",
+    "environment",
+    "software"
+  ],
+  "homepage": "https://github.com/NateFerrero/system0#readme",
+  "bugs": {
+    "url": "https://github.com/NateFerrero/system0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NateFerrero/system0.git"
+  },
+  "license": "MIT",
+  "author": "Nate Ferrero <hello@nateferrero.com>",
+  "type": "module",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "./main.mjs",
+    "test": "./test.mjs"
+  }
+}
