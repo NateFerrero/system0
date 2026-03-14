@@ -51,7 +51,7 @@ export function terminal(scope, message) {
       .join(' | '),
     )
     .join('\n')
-   scope.output(`\n\n${padText} [ ]\x1b[D\x1b[D`)
+   scope.output(`${padText} [ ]\x1b[D\x1b[D`)
   }
   scope.tapp(scope, message)
   scope.showInput()
